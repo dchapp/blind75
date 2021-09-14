@@ -68,7 +68,7 @@ Linked List
 - Detect Cycle in a Linked List - https://leetcode.com/problems/linked-list-cycle &#9745;
 - Merge Two Sorted Lists - https://leetcode.com/problems/merge-two-sorted-lists &#9745;
 - Merge K Sorted Lists - https://leetcode.com/problems/merge-k-sorted-lists &#9744;
-- Remove Nth Node From End Of List - https://leetcode.com/problems/remove-nth-node-from-end-of-list &#9744;
+- Remove Nth Node From End Of List - https://leetcode.com/problems/remove-nth-node-from-end-of-list &#9745;
 - Reorder List - https://leetcode.com/problems/reorder-list &#9745;
 
 ---
@@ -125,3 +125,4 @@ Heap
 
 TODO:
 - Iterative solution for 143. Current recursive solution is on in 7th %tile. 
+- Optimize soluton for 19
