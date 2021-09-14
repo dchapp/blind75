@@ -99,7 +99,7 @@ String
 
 Tree
 
-- Maximum Depth of Binary Tree - https://leetcode.com/problems/maximum-depth-of-binary-tree &#9744;
+- Maximum Depth of Binary Tree - https://leetcode.com/problems/maximum-depth-of-binary-tree &#9745;
 - Same Tree - https://leetcode.com/problems/same-tree &#9745;
 - Invert/Flip Binary Tree - https://leetcode.com/problems/invert-binary-tree &#9745;
 - Binary Tree Maximum Path Sum - https://leetcode.com/problems/binary-tree-maximum-path-sum &#9744;
