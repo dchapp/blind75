@@ -25,7 +25,7 @@ Binary
 
 Dynamic Programming
 
-- Climbing Stairs - https://leetcode.com/problems/climbing-stairs &#9744;
+- Climbing Stairs - https://leetcode.com/problems/climbing-stairs &#9745;
 - Coin Change - https://leetcode.com/problems/coin-change &#9744;
 - Longest Increasing Subsequence - https://leetcode.com/problems/longest-increasing-subsequence &#9744;
 - Longest Common Subsequence -
