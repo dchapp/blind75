@@ -64,7 +64,7 @@ Interval
 
 Linked List
 
-- Reverse a Linked List - https://leetcode.com/problems/reverse-linked-list &#9745; ☑
+- Reverse a Linked List - https://leetcode.com/problems/reverse-linked-list &#9745;
 - Detect Cycle in a Linked List - https://leetcode.com/problems/linked-list-cycle &#9745;
 - Merge Two Sorted Lists - https://leetcode.com/problems/merge-two-sorted-lists &#9744;
 - Merge K Sorted Lists - https://leetcode.com/problems/merge-k-sorted-lists &#9744;
