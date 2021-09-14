@@ -69,7 +69,7 @@ Linked List
 - Merge Two Sorted Lists - https://leetcode.com/problems/merge-two-sorted-lists &#9745;
 - Merge K Sorted Lists - https://leetcode.com/problems/merge-k-sorted-lists &#9744;
 - Remove Nth Node From End Of List - https://leetcode.com/problems/remove-nth-node-from-end-of-list &#9744;
-- Reorder List - https://leetcode.com/problems/reorder-list &#9744;
+- Reorder List - https://leetcode.com/problems/reorder-list &#9745;
 
 ---
 
