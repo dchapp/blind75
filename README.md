@@ -1,7 +1,7 @@
 Array
 
 - Two Sum - https://leetcode.com/problems/two-sum &#9745;
-- Best Time to Buy and Sell Stock - https://leetcode.com/problems/best-time-to-buy-and-sell-stock &#9744;
+- Best Time to Buy and Sell Stock - https://leetcode.com/problems/best-time-to-buy-and-sell-stock &#9745;
 - Contains Duplicate - https://leetcode.com/problems/contains-duplicate &#9745;
 - Product of Array Except Self - https://leetcode.com/problems/product-of-array-except-self &#9744;
 - Maximum Subarray - https://leetcode.com/problems/maximum-subarray &#9744;
