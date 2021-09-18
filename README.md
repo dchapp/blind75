@@ -1,3 +1,5 @@
+## The Original Blind 75
+
 Array
 
 - Two Sum - https://leetcode.com/problems/two-sum &#9745;
@@ -121,6 +123,13 @@ Heap
 - Merge K Sorted Lists - https://leetcode.com/problems/merge-k-sorted-lists &#9744;
 - Top K Frequent Elements - https://leetcode.com/problems/top-k-frequent-elements &#9744;
 - Find Median from Data Stream - https://leetcode.com/problems/find-median-from-data-stream &#9744;
+
+---
+
+## Other Problems:
+
+### Linked List:
+- Middle of the Linked List - https://leetcode.com/problems/middle-of-the-linked-list/ &#9745;
 
 
 TODO:
