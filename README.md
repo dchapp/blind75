@@ -93,7 +93,7 @@ String
 - Group Anagrams - https://leetcode.com/problems/group-anagrams &#9744;
 - Valid Parentheses - https://leetcode.com/problems/valid-parentheses &#9744;
 - Valid Palindrome - https://leetcode.com/problems/valid-palindrome &#9744;
-- Longest Palindromic Substring - https://leetcode.com/problems/longest-palindromic-substring &#9744;
+- Longest Palindromic Substring - https://leetcode.com/problems/longest-palindromic-substring &#9745;
 - Palindromic Substrings - https://leetcode.com/problems/palindromic-substrings &#9744;
 - Encode and Decode Strings (Leetcode Premium) - https://leetcode.com/problems/encode-and-decode-strings &#9744;
 
