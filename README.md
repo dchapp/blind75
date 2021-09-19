@@ -131,6 +131,7 @@ Heap
 ### Linked List:
 - Middle of the Linked List - https://leetcode.com/problems/middle-of-the-linked-list/ &#9745;
 - Convert Sorted List to Binary Search Tree - https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/ &#9745;
+- Average of Levels in Binary Tree - https://leetcode.com/problems/average-of-levels-in-binary-tree/ &#9745; 
 
 
 TODO:
