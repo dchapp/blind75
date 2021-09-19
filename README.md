@@ -31,7 +31,7 @@ Dynamic Programming
 - Coin Change - https://leetcode.com/problems/coin-change &#9744;
 - Longest Increasing Subsequence - https://leetcode.com/problems/longest-increasing-subsequence &#9744;
 - Longest Common Subsequence - https://leetcode.com/problems/longest-common-subsequence/ &#9744;
-- Word Break Problem - https://leetcode.com/problems/word-break &#9744;
+- Word Break Problem - https://leetcode.com/problems/word-break &#9745;
 - Combination Sum - https://leetcode.com/problems/combination-sum-iv &#9744;
 - House Robber - https://leetcode.com/problems/house-robber &#9744;
 - House Robber II - https://leetcode.com/problems/house-robber-ii &#9744;
