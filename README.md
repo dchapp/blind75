@@ -90,7 +90,7 @@ String
 - Longest Repeating Character Replacement - https://leetcode.com/problems/longest-repeating-character-replacement &#9744;
 - Minimum Window Substring - https://leetcode.com/problems/minimum-window-substring &#9744;
 - Valid Anagram - https://leetcode.com/problems/valid-anagram &#9744;
-- Group Anagrams - https://leetcode.com/problems/group-anagrams &#9744;
+- Group Anagrams - https://leetcode.com/problems/group-anagrams &#9745;
 - Valid Parentheses - https://leetcode.com/problems/valid-parentheses &#9744;
 - Valid Palindrome - https://leetcode.com/problems/valid-palindrome &#9744;
 - Longest Palindromic Substring - https://leetcode.com/problems/longest-palindromic-substring &#9745;
