@@ -86,7 +86,7 @@ Matrix
 
 String
 
-- Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters &#9744;
+- Longest Substring Without Repeating Characters - https://leetcode.com/problems/longest-substring-without-repeating-characters &#9745;
 - Longest Repeating Character Replacement - https://leetcode.com/problems/longest-repeating-character-replacement &#9744;
 - Minimum Window Substring - https://leetcode.com/problems/minimum-window-substring &#9744;
 - Valid Anagram - https://leetcode.com/problems/valid-anagram &#9744;
