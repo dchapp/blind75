@@ -140,6 +140,9 @@ Heap
 ### Graph:
 - Find if Path Exists in Graph - https://leetcode.com/problems/find-if-path-exists-in-graph/ &#9745; 
 
+### DP:
+- Paint House - https://leetcode.com/problems/paint-house/ &#9745; 
+
 ---
 
 ### TODO:
