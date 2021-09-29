@@ -130,6 +130,7 @@ Heap
 
 ### Linked List:
 - Middle of the Linked List - https://leetcode.com/problems/middle-of-the-linked-list/ &#9745;
+- Swap Nodes in Pairs - https://leetcode.com/problems/swap-nodes-in-pairs/ &#9745;
 
 ---
 
