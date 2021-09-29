@@ -146,6 +146,7 @@ Heap
 
 ### Misc:
 - Letter Combinations of a Phone Number - https://leetcode.com/problems/letter-combinations-of-a-phone-number/ &#9745;
+- Multiply Strings - https://leetcode.com/problems/multiply-strings/ &#9745;
 
 ---
 
