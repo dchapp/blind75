@@ -144,6 +144,9 @@ Heap
 ### DP:
 - Paint House - https://leetcode.com/problems/paint-house/ &#9745; 
 
+### Misc:
+- Letter Combinations of a Phone Number - https://leetcode.com/problems/letter-combinations-of-a-phone-number/ &#9745;
+
 ---
 
 ### TODO:
