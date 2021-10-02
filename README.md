@@ -146,6 +146,7 @@ Heap
 - Paint House - https://leetcode.com/problems/paint-house/ &#9745; 
 - House Robber - https://leetcode.com/problems/house-robber/ &#9745;
 - Paint Fence - https://leetcode.com/problems/paint-fence/ &#9745;
+- Minimum Falling Path Sum - https://leetcode.com/problems/minimum-falling-path-sum/ &#9745;
 
 ### Misc:
 - Letter Combinations of a Phone Number - https://leetcode.com/problems/letter-combinations-of-a-phone-number/ &#9745;
