@@ -36,7 +36,7 @@ Dynamic Programming
 - House Robber - https://leetcode.com/problems/house-robber &#9745;
 - House Robber II - https://leetcode.com/problems/house-robber-ii &#9744;
 - Decode Ways - https://leetcode.com/problems/decode-ways &#9744;
-- Unique Paths - https://leetcode.com/problems/unique-paths &#9744;
+- Unique Paths - https://leetcode.com/problems/unique-paths &#9745;
 - Jump Game - https://leetcode.com/problems/jump-game &#9744;
 
 ---
