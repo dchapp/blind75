@@ -147,6 +147,7 @@ Heap
 - Paint Fence - https://leetcode.com/problems/paint-fence/ &#9745;
 - Minimum Falling Path Sum - https://leetcode.com/problems/minimum-falling-path-sum/ &#9745;
 - Wiggle Subsequence - https://leetcode.com/problems/wiggle-subsequence/ &#9745;
+- Integer Break - https://leetcode.com/problems/integer-break/ &#9745;
 
 ### Misc:
 - Letter Combinations of a Phone Number - https://leetcode.com/problems/letter-combinations-of-a-phone-number/ &#9745;
