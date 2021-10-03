@@ -33,7 +33,7 @@ Dynamic Programming
 - Longest Common Subsequence - https://leetcode.com/problems/longest-common-subsequence/ &#9744;
 - Word Break Problem - https://leetcode.com/problems/word-break &#9745;
 - Combination Sum - https://leetcode.com/problems/combination-sum-iv &#9744;
-- House Robber - https://leetcode.com/problems/house-robber &#9744;
+- House Robber - https://leetcode.com/problems/house-robber &#9745;
 - House Robber II - https://leetcode.com/problems/house-robber-ii &#9744;
 - Decode Ways - https://leetcode.com/problems/decode-ways &#9744;
 - Unique Paths - https://leetcode.com/problems/unique-paths &#9744;
@@ -144,9 +144,9 @@ Heap
 
 ### DP:
 - Paint House - https://leetcode.com/problems/paint-house/ &#9745; 
-- House Robber - https://leetcode.com/problems/house-robber/ &#9745;
 - Paint Fence - https://leetcode.com/problems/paint-fence/ &#9745;
 - Minimum Falling Path Sum - https://leetcode.com/problems/minimum-falling-path-sum/ &#9745;
+- Wiggle Subsequence - https://leetcode.com/problems/wiggle-subsequence/ &#9745;
 
 ### Misc:
 - Letter Combinations of a Phone Number - https://leetcode.com/problems/letter-combinations-of-a-phone-number/ &#9745;
