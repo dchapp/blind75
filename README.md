@@ -18,7 +18,7 @@ Array
 Binary
 
 - Sum of Two Integers - https://leetcode.com/problems/sum-of-two-integers &#9744;
-- Number of 1 Bits - https://leetcode.com/problems/number-of-1-bits &#9744;
+- Number of 1 Bits - https://leetcode.com/problems/number-of-1-bits &#9745;
 - Counting Bits - https://leetcode.com/problems/counting-bits &#9744;
 - Missing Number - https://leetcode.com/problems/missing-number &#9745;
 - Reverse Bits - https://leetcode.com/problems/reverse-bits &#9744;
