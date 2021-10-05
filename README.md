@@ -149,6 +149,7 @@ Heap
 - Wiggle Subsequence - https://leetcode.com/problems/wiggle-subsequence/ &#9745;
 - Integer Break - https://leetcode.com/problems/integer-break/ &#9745;
 - Coin Change 2 - https://leetcode.com/problems/coin-change-2/ &#9745;
+- Number of Dice Rolls with Target Sum - https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/ &#9745;
 
 ### Misc:
 - Letter Combinations of a Phone Number - https://leetcode.com/problems/letter-combinations-of-a-phone-number/ &#9745;
