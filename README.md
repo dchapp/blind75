@@ -155,6 +155,9 @@ Heap
 - Letter Combinations of a Phone Number - https://leetcode.com/problems/letter-combinations-of-a-phone-number/ &#9745;
 - Multiply Strings - https://leetcode.com/problems/multiply-strings/ &#9745;
 
+### Search:
+- Search a 2D Matrix - https://leetcode.com/problems/search-a-2d-matrix/ &#9745;
+
 ---
 
 ### TODO:
