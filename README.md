@@ -143,6 +143,7 @@ Heap
 - Most Stones Removed with Same Row or Column - https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/ &#9745;
 - Flood Fill - https://leetcode.com/problems/flood-fill/ &#9745;
 - Island Perimeter - https://leetcode.com/problems/island-perimeter/ &#9745;
+- Making a Large Island - https://leetcode.com/problems/making-a-large-island/
 
 ### DP:
 - Paint House - https://leetcode.com/problems/paint-house/ &#9745; 

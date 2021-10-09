@@ -18,70 +18,50 @@ def to_graph(grid):
                     if n_i >= 0 and n_i < n and n_j >= 0 and n_j < n and grid[n_i][n_j] == 1:
                         adj_list[(i,j)].append((n_i, n_j))
     return adj_list
-
-
-def add_shoreline(current_shoreline, current_node, n, graph):
-    row, col = current_node
-    neighbors = [
-    (row-1, col),
-    (row+1, col),
-    (row, col-1),
-    (row, col+1)
-    ]
-    for neighbor in neighbors:
-        if neighbor not in graph:
-            n_row, n_col = neighbor
-            if n_row >= 0 and n_row < n and n_col >= 0 and n_col < n:
-                current_shoreline.add(neighbor)
-    return current_shoreline
                 
         
 def connected_components(graph, n):
     
     visited = set()
+    shoreline_to_ccid = {}
     
-    def bfs(node, n, graph):
-        component = set()
+    def bfs(node, size, n, graph, ccid):
         queue = deque([node])
-        row, col = node
-        shoreline = set()
         while queue:
+            # Track BFS visitation
             current = queue.popleft()
-            add_shoreline(shoreline, current, n, graph)
-            visited.add(current)
-            component.add(current)
-            for neighbor in graph[current]:
-                if neighbor not in visited:
-                    queue.append(neighbor)
-        return component, shoreline
+            if current not in visited:
+                visited.add(current)
+                # Update component size
+                size += 1
+                # Update shoreline mapping
+                row, col = current
+                shoreline_candidates = [
+                (row-1, col),
+                (row+1, col),
+                (row, col-1),
+                (row, col+1)]
+                for n_row, n_col in shoreline_candidates:
+                    if (n_row, n_col) not in graph and n_row >= 0 and n_row < n and n_col >= 0 and n_col < n:
+                        if (n_row, n_col) not in shoreline_to_ccid:
+                            shoreline_to_ccid[(n_row, n_col)] = {ccid}
+                        else:
+                            shoreline_to_ccid[(n_row, n_col)].add(ccid)
+                # BFS visit
+                for neighbor in graph[current]:
+                    if neighbor not in visited:
+                        queue.append(neighbor)
+        return size
     
-    # Store mapping:
-    # - From integer connected component IDs 
-    # - To dict of connected component size, shoreline cell indices
-    ccid_to_data = {}
+    ccid_to_size = {}
     
-    current_id = 0
+    ccid = 0
     for node in graph:
         if node not in visited:
-            component, shoreline = bfs(node, n, graph)
-            ccid_to_data[current_id] = {"size": len(component), "shoreline": shoreline}
-            current_id += 1
-    return ccid_to_data
-
-
-
-def invert_mapping(ccid_to_data):
-    shoreline_cell_to_components = {}
-    for ccid,data in ccid_to_data.items():
-        shoreline_cells = data["shoreline"]
-        for coords in shoreline_cells:
-            if coords not in shoreline_cell_to_components:
-                shoreline_cell_to_components[coords] = [ccid]
-            else:
-                shoreline_cell_to_components[coords].append(ccid)
-    return shoreline_cell_to_components
-
-
+            size = bfs(node, 0, n, graph, ccid)
+            ccid_to_size[ccid] = size
+            ccid += 1
+    return ccid_to_size, shoreline_to_ccid
 
 
 class Solution:
@@ -92,25 +72,21 @@ class Solution:
         if len(graph) == n**2:
             return n**2
         
-        ccid_to_data = connected_components(graph, n)
-        
-        if len(ccid_to_data) == 0:
+        if len(graph) == 0:
             return 1
         
-        #pprint.pprint(ccid_to_data)
+        ccid_to_size, shoreline_to_ccid = connected_components(graph, n)
         
-        coords_to_components = invert_mapping(ccid_to_data)
-        #pprint.pprint(coords_to_components)
+        #pprint.pprint(ccid_to_size)
+        #pprint.pprint(shoreline_to_ccid)
         
         largest_island = 0
-        for k,v in coords_to_components.items():
-            curr_island = 1
-            for ccid in v:
-                curr_island += ccid_to_data[ccid]["size"]
-            if curr_island > largest_island:
-                largest_island = curr_island
+        for ccid_list in shoreline_to_ccid.values():
+            current_island = 1
+            for ccid in ccid_list:
+                current_island += ccid_to_size[ccid]
+            if current_island > largest_island:
+                largest_island = current_island
         
         return largest_island
-        
-        
         
